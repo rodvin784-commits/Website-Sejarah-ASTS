@@ -369,6 +369,21 @@ section { scroll-margin-top: calc(var(--nav-h) + 12px); }
 .node[data-depth="2"] > .node-row > .label { font-weight: 400; }
 .node[data-depth="3"] > .node-row > .label { font-family: var(--body); color: var(--ink-soft); font-weight: 400; }
 
+/* ---------- penjelasan materi ---------- */
+.desc {
+  font-family: var(--body);
+  font-size: .92rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  background: rgba(234, 221, 194, .5);
+  border-left: 2px solid var(--rule);
+  padding: .45rem .7rem;
+  margin: .15rem 0 .5rem .45em;
+  max-width: 70ch;
+}
+.node[data-depth="1"] > .desc { font-size: .95rem; border-left-color: var(--gold); }
+.node[data-depth="2"] > .desc { font-size: .9rem; }
+
 .chip {
   font-family: var(--label);
   font-size: .66rem;

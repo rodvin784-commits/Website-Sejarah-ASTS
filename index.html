@@ -1,201 +1,382 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sejarah Kemerdekaan Indonesia — Analisis Struktur 1942–1945</title>
-<meta name="description" content="Satu halaman analisis struktur materi Sejarah Kemerdekaan Indonesia: Pendudukan Jepang (1942–1945), Detik-detik Proklamasi (Agustus 1945), dan Pembentukan Pemerintahan pasca-proklamasi.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:wght@500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-<script>document.documentElement.className += ' js';</script>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sejarah Kemerdekaan Indonesia — Analisis Struktur 1942–1945</title>
+    <meta
+      name="description"
+      content="Satu halaman analisis struktur materi Sejarah Kemerdekaan Indonesia: Pendudukan Jepang (1942–1945), Detik-detik Proklamasi (Agustus 1945), dan Pembentukan Pemerintahan pasca-proklamasi."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      document.documentElement.className += " js";
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#konten">Lewati ke konten</a>
+    <div class="progress" aria-hidden="true"><span></span></div>
 
-<a class="skip" href="#konten">Lewati ke konten</a>
-<div class="progress" aria-hidden="true"><span></span></div>
+    <header class="hero" id="atas">
+      <div class="hero-inner">
+        <p class="kicker">Dokumen Belajar · Sejarah Nasional</p>
+        <h1 class="hero-title">Sejarah<br />Kemerdekaan Indonesia</h1>
+        <p class="hero-sub">
+          Analisis struktur tiga babak — pendudukan Jepang, detik-detik
+          proklamasi, dan pembentukan pemerintahan — dibaca sebagai satu
+          rangkaian sebab akibat.
+        </p>
+        <div class="hero-foot">
+          <span class="stamp">1942 — 1945</span>
+          <button class="btn" type="button" id="cetak" data-print="hide">
+            Cetak / Simpan sebagai PDF
+          </button>
+        </div>
 
-<header class="hero" id="atas">
-  <div class="hero-inner">
-    <p class="kicker">Dokumen Belajar · Sejarah Nasional</p>
-    <h1 class="hero-title">Sejarah<br>Kemerdekaan Indonesia</h1>
-    <p class="hero-sub">Analisis struktur tiga babak — pendudukan Jepang, detik-detik proklamasi, dan pembentukan pemerintahan — dibaca sebagai satu rangkaian sebab akibat.</p>
-    <div class="hero-foot">
-      <span class="stamp">1942 — 1945</span>
-      <button class="btn" type="button" id="cetak" data-print="hide">Cetak / Simpan sebagai PDF</button>
-    </div>
-
-    <ol class="mini" aria-label="Garis waktu ringkas">
-      <li><time datetime="1942-01">Jan 1942</time><span>Pendaratan Tarakan</span></li>
-      <li><time datetime="1942-03-08">8 Mar 1942</time><span>Perjanjian Kalijati</span></li>
-      <li><time datetime="1945-08-06">6 &amp; 9 Ags 1945</time><span>Bom atom Hiroshima–Nagasaki</span></li>
-      <li><time datetime="1945-08-15">15 Ags 1945</time><span>Jepang menyerah</span></li>
-      <li><time datetime="1945-08-16">16 Ags 1945</time><span>Rengasdengklok</span></li>
-      <li><time datetime="1945-08-17">17 Ags 1945</time><span>Proklamasi</span></li>
-      <li><time datetime="1945-08-18">18–19 Ags 1945</time><span>Sidang PPKI</span></li>
-      <li><time datetime="1945-08-29">29 Ags 1945</time><span>KNIP dibentuk</span></li>
-    </ol>
-  </div>
-</header>
-
-<nav class="actnav" aria-label="Navigasi babak">
-  <div class="actnav-inner">
-    <a href="#babak-a" data-short="A"><span>Babak A · Pendudukan</span></a>
-    <a href="#babak-b" data-short="B"><span>Babak B · Proklamasi</span></a>
-    <a href="#babak-c" data-short="C"><span>Babak C · Pemerintahan</span></a>
-    <a href="#dampak" data-short="Dampak"><span>Analisis Dampak</span></a>
-    <a href="#pustaka" data-short="Pustaka"><span>Daftar Pustaka</span></a>
-  </div>
-</nav>
-
-<main id="konten">
-
-  <div class="print-head" aria-hidden="true">
-    <p>Sejarah Kemerdekaan Indonesia — Analisis Struktur Materi</p>
-    <p>Babak A: Pendudukan Jepang (1942–1945) · Babak B: Detik-detik Proklamasi · Babak C: Pembentukan Pemerintahan</p>
-  </div>
-
-  <!-- ============ BABAK A ============ -->
-  <section class="act reveal" id="babak-a" aria-labelledby="h-a">
-    <aside class="datesidebar" aria-labelledby="ds-a">
-      <h3 id="ds-a">Tanggal Penting</h3>
-      <ol class="dates" data-act="a"></ol>
-      <p class="dates-empty" data-act="a" hidden>Tidak ada tanggal eksplisit pada bagian ini.</p>
-    </aside>
-
-    <div class="act-main">
-      <header class="act-head">
-        <p class="act-num">Babak A</p>
-        <h2 id="h-a">Pendudukan Jepang</h2>
-        <p class="act-span">1942 — 1945</p>
-      </header>
-
-      <p class="lede">Pendudukan Jepang berlangsung hanya tiga setengah tahun, tetapi menyentuh hampir seluruh sendi kehidupan rakyat. Strukturnya dapat dibaca dari empat sisi: bagaimana Jepang datang dan mempropagandakan diri, kebijakan apa yang diterapkannya, apa akibatnya bagi rakyat, dan organisasi apa yang dibentuknya. Dari sisi keempat itulah lahir pemuda yang terlatih secara militer — bekal yang ternyata menentukan tiga tahun kemudian.</p>
-
-      <div class="toolbar" data-print="hide">
-        <button class="btn small" type="button" data-all="a" data-open="true">Buka semua</button>
-        <button class="btn small" type="button" data-all="a" data-open="false">Tutup semua</button>
+        <ol class="mini" aria-label="Garis waktu ringkas">
+          <li>
+            <time datetime="1942-01">Jan 1942</time
+            ><span>Pendaratan Tarakan</span>
+          </li>
+          <li>
+            <time datetime="1942-03-08">8 Mar 1942</time
+            ><span>Perjanjian Kalijati</span>
+          </li>
+          <li>
+            <time datetime="1945-08-06">6 &amp; 9 Ags 1945</time
+            ><span>Bom atom Hiroshima–Nagasaki</span>
+          </li>
+          <li>
+            <time datetime="1945-08-15">15 Ags 1945</time
+            ><span>Jepang menyerah</span>
+          </li>
+          <li>
+            <time datetime="1945-08-16">16 Ags 1945</time
+            ><span>Rengasdengklok</span>
+          </li>
+          <li>
+            <time datetime="1945-08-17">17 Ags 1945</time
+            ><span>Proklamasi</span>
+          </li>
+          <li>
+            <time datetime="1945-08-18">18–19 Ags 1945</time
+            ><span>Sidang PPKI</span>
+          </li>
+          <li>
+            <time datetime="1945-08-29">29 Ags 1945</time
+            ><span>KNIP dibentuk</span>
+          </li>
+        </ol>
       </div>
-      <div class="tree-mount" data-act="a"></div>
-    </div>
-  </section>
-
-  <!-- ============ BABAK B ============ -->
-  <section class="act reveal" id="babak-b" aria-labelledby="h-b">
-    <aside class="datesidebar" aria-labelledby="ds-b">
-      <h3 id="ds-b">Tanggal Penting</h3>
-      <ol class="dates" data-act="b"></ol>
-      <p class="dates-empty" data-act="b" hidden>Tidak ada tanggal eksplisit pada bagian ini.</p>
-    </aside>
-
-    <div class="act-main">
-      <header class="act-head">
-        <p class="act-num">Babak B</p>
-        <h2 id="h-b">Detik-detik Proklamasi</h2>
-        <p class="act-span">Agustus 1945</p>
-      </header>
-
-      <p class="lede">Agustus 1945 berjalan dalam hitungan hari. Kekalahan Jepang membuka kekosongan kekuasaan yang selama ini tertutup rapat; golongan muda mendesak percepatan, golongan tua menahan diri, dan ketegangan itu berakhir pada satu naskah yang dibacakan pagi 17 Agustus. Struktur bagian ini karena itu bukan daftar, melainkan urutan kritis: celah, desakan, naskah, lalu pernyataan.</p>
-
-      <div class="toolbar" data-print="hide">
-        <button class="btn small" type="button" data-all="b" data-open="true">Buka semua</button>
-        <button class="btn small" type="button" data-all="b" data-open="false">Tutup semua</button>
-      </div>
-      <div class="tree-mount" data-act="b"></div>
-    </div>
-  </section>
-
-  <!-- ============ BABAK C ============ -->
-  <section class="act reveal" id="babak-c" aria-labelledby="h-c">
-    <aside class="datesidebar" aria-labelledby="ds-c">
-      <h3 id="ds-c">Tanggal Penting</h3>
-      <ol class="dates" data-act="c"></ol>
-      <p class="dates-empty" data-act="c" hidden>Tidak ada tanggal eksplisit pada bagian ini.</p>
-    </aside>
-
-    <div class="act-main">
-      <header class="act-head">
-        <p class="act-num">Babak C</p>
-        <h2 id="h-c">Pembentukan Pemerintahan</h2>
-        <p class="act-span">Pasca Proklamasi</p>
-      </header>
-
-      <p class="lede">Proklamasi menyatakan negara berdiri, tetapi belum mengisinya. Dalam sebelas hari — 18 hingga 29 Agustus 1945 — PPKI melengkapi kerangka pemerintahan: konstitusi dan pemimpin negara, lalu kementerian dan pembagian wilayah, dan akhirnya sebuah badan pembantu presiden. Pola strukturnya bergerak dari legitimasi, ke birokrasi, ke wilayah.</p>
-
-      <div class="toolbar" data-print="hide">
-        <button class="btn small" type="button" data-all="c" data-open="true">Buka semua</button>
-        <button class="btn small" type="button" data-all="c" data-open="false">Tutup semua</button>
-      </div>
-      <div class="tree-mount" data-act="c"></div>
-    </div>
-  </section>
-
-  <!-- ============ ANALISIS DAMPAK ============ -->
-  <section class="block reveal" id="dampak" aria-labelledby="h-d">
-    <header class="act-head">
-      <p class="act-num">Analisis</p>
-      <h2 id="h-d">Benang Merah Antarstruktur</h2>
     </header>
 
-    <div class="cards">
-      <article class="card">
-        <h3>Yang membebani rakyat</h3>
-        <p>Ekonomi Perang menguras padi, karet, dan aset rakyat; Romusha mengambil tenaga kerja paksa; kelaparan dan kemiskinan menyebar. Wajib Seikerei memaksa rakyat melakukan penghormatan yang bertentangan dengan martabat dan keyakinannya.</p>
-      </article>
-      <article class="card accent">
-        <h3>Yang justru menjadi bekal</h3>
-        <p>Pelatihan militer lewat Seinendan, Keibodan, Heiho, dan PETA memberi pemuda pengalaman organisasi dan senjata. Izin pemakaian Bahasa Indonesia membuat gagasan kebangsaan menyebar jauh lebih luas daripada di masa Belanda.</p>
-      </article>
-    </div>
+    <nav class="actnav" aria-label="Navigasi babak">
+      <div class="actnav-inner">
+        <a href="#babak-a" data-short="A"><span>Babak A · Pendudukan</span></a>
+        <a href="#babak-b" data-short="B"><span>Babak B · Proklamasi</span></a>
+        <a href="#babak-c" data-short="C"
+          ><span>Babak C · Pemerintahan</span></a
+        >
+        <a href="#dampak" data-short="Dampak"><span>Analisis Dampak</span></a>
+        <a href="#pustaka" data-short="Pustaka"><span>Daftar Pustaka</span></a>
+      </div>
+    </nav>
 
-    <h3 class="chain-title">Rantai sebab akibat</h3>
-    <ol class="chain">
-      <li><b>1942</b> Jepang datang dengan propaganda 3A dan mengambil alih pemerintahan dari Belanda.</li>
-      <li><b>1942–1945</b> Kebijakan militer &amp; organisasi bentukan melatih struktur sosial pemuda.</li>
-      <li><b>6–15 Ags 1945</b> Jepang kalah; kekosongan kekuasaan muncul sebagai celah politik.</li>
-      <li><b>16–17 Ags 1945</b> Desakan golongan muda diselesaikan dengan naskah bersama di rumah Maeda.</li>
-      <li><b>18–29 Ags 1945</b> Celah itu diisi kerangka negara: UUD, presiden, kementerian, provinsi, KNIP.</li>
-    </ol>
+    <main id="konten">
+      <div class="print-head" aria-hidden="true">
+        <p>Sejarah Kemerdekaan Indonesia — Analisis Struktur Materi</p>
+        <p>
+          Babak A: Pendudukan Jepang (1942–1945) · Babak B: Detik-detik
+          Proklamasi · Babak C: Pembentukan Pemerintahan
+        </p>
+      </div>
 
-    <p class="closing-note">Kesimpulan struktur: Babak A menyiapkan pelaku dan bahasa, Babak B memanfaatkan celah waktu, Babak C mengubah pernyataan menjadi lembaga. Ketiganya baru masuk akal bila dibaca berurutan, bukan sebagai tiga daftar yang terpisah.</p>
-  </section>
+      <!-- ============ BABAK A ============ -->
+      <section class="act reveal" id="babak-a" aria-labelledby="h-a">
+        <aside class="datesidebar" aria-labelledby="ds-a">
+          <h3 id="ds-a">Tanggal Penting</h3>
+          <ol class="dates" data-act="a"></ol>
+          <p class="dates-empty" data-act="a" hidden>
+            Tidak ada tanggal eksplisit pada bagian ini.
+          </p>
+        </aside>
 
-  <!-- ============ DAFTAR PUSTAKA ============ -->
-  <section class="block reveal" id="pustaka" aria-labelledby="h-p">
-    <header class="act-head">
-      <p class="act-num">Sumber</p>
-      <h2 id="h-p">Daftar Pustaka</h2>
-    </header>
+        <div class="act-main">
+          <header class="act-head">
+            <p class="act-num">Babak A</p>
+            <h2 id="h-a">Pendudukan Jepang</h2>
+            <p class="act-span">1942 — 1945</p>
+          </header>
 
-    <ol class="refs">
-      <li class="ref">Poesponegoro, Marwati Djoened, dan Nugroho Notosusanto. <i>Sejarah Nasional Indonesia VI: Zaman Jepang dan Zaman Republik Indonesia</i>. Jakarta: Balai Pustaka.</li>
-      <li class="ref">Ricklefs, M. C. <i>Sejarah Indonesia Modern 1200–2008</i>. Jakarta: Serambi Ilmu Semesta.</li>
-      <li class="ref">Kahin, George McTurnan. <i>Nasionalisme dan Revolusi di Indonesia</i>. Yogyakarta: Core Indonesia (terjemahan).</li>
-      <li class="ref">Malik, Adam. <i>Riwajat Sedjarah Djalan ke Republik Indonesia, 17 Juni 1943 – 15 Desember 1945</i>. Jakarta: Yayasan Idayu.</li>
-      <li class="ref">Naskah Proklamasi dan dokumen sidang PPKI. Arsip naskah proklamasi disimpan dan dipamerkan di Museum Naskah Proklamasi, Jl. Pegangsaan Timur No. 56, Jakarta.</li>
-      <li class="ref">Buku teks Sejarah Indonesia tingkat menengah yang dipakai di sekolah (edisi terbaru) — gunakan sebagai rujukan utama tanggal dan nama tokoh.</li>
-    </ol>
+          <p class="lede">
+            Pendudukan Jepang berlangsung hanya tiga setengah tahun, tetapi
+            menyentuh hampir seluruh sendi kehidupan rakyat. Strukturnya dapat
+            dibaca dari empat sisi: bagaimana Jepang datang dan mempropagandakan
+            diri, kebijakan apa yang diterapkannya, apa akibatnya bagi rakyat,
+            dan organisasi apa yang dibentuknya. Dari sisi keempat itulah lahir
+            pemuda yang terlatih secara militer — bekal yang ternyata menentukan
+            tiga tahun kemudian.
+          </p>
 
-    <p class="note">Sesuaikan daftar ini dengan buku atau modul yang benar-benar kamu pakai, dan tambahkan kota serta tahun terbit edisi yang kamu pegang.</p>
-  </section>
+          <div class="toolbar" data-print="hide">
+            <button
+              class="btn small"
+              type="button"
+              data-all="a"
+              data-open="true"
+            >
+              Buka semua
+            </button>
+            <button
+              class="btn small"
+              type="button"
+              data-all="a"
+              data-open="false"
+            >
+              Tutup semua
+            </button>
+          </div>
+          <div class="tree-mount" data-act="a"></div>
+        </div>
+      </section>
 
-  <!-- ============ PENUTUP ============ -->
-  <section class="block reveal" id="penutup" aria-labelledby="h-e">
-    <header class="act-head">
-      <p class="act-num">Penutup</p>
-      <h2 id="h-e">Catatan Pembaca</h2>
-    </header>
-    <p class="lede">Setiap pohon pada halaman ini dapat dibuka dan ditutup. Bila ingin melihat seluruh struktur sekaligus, gunakan tombol “Buka semua” pada tiap babak, lalu tekan <b>Ctrl&nbsp;+&nbsp;P</b> untuk menyimpannya sebagai PDF — hasil cetak selalu menampilkan seluruh cabang dalam keadaan terbuka.</p>
-  </section>
+      <!-- ============ BABAK B ============ -->
+      <section class="act reveal" id="babak-b" aria-labelledby="h-b">
+        <aside class="datesidebar" aria-labelledby="ds-b">
+          <h3 id="ds-b">Tanggal Penting</h3>
+          <ol class="dates" data-act="b"></ol>
+          <p class="dates-empty" data-act="b" hidden>
+            Tidak ada tanggal eksplisit pada bagian ini.
+          </p>
+        </aside>
 
-</main>
+        <div class="act-main">
+          <header class="act-head">
+            <p class="act-num">Babak B</p>
+            <h2 id="h-b">Detik-detik Proklamasi</h2>
+            <p class="act-span">Agustus 1945</p>
+          </header>
 
-<footer class="sitefoot">
-  <p>Tugas Sejarah @VINZENT RUMERE · Analisis Struktur Sejarah Kemerdekaan Indonesia</p>
-  <p class="print-only">Nama: VINZENT ROBERTHO RUMERE &nbsp;·&nbsp; Kelas: XI - RPL &nbsp;·&nbsp; No. Absen: 16</p>
-</footer>
+          <p class="lede">
+            Agustus 1945 berjalan dalam hitungan hari. Kekalahan Jepang membuka
+            kekosongan kekuasaan yang selama ini tertutup rapat; golongan muda
+            mendesak percepatan, golongan tua menahan diri, dan ketegangan itu
+            berakhir pada satu naskah yang dibacakan pagi 17 Agustus. Struktur
+            bagian ini karena itu bukan daftar, melainkan urutan kritis: celah,
+            desakan, naskah, lalu pernyataan.
+          </p>
 
-<script src="script.js"></script>
-</body>
+          <div class="toolbar" data-print="hide">
+            <button
+              class="btn small"
+              type="button"
+              data-all="b"
+              data-open="true"
+            >
+              Buka semua
+            </button>
+            <button
+              class="btn small"
+              type="button"
+              data-all="b"
+              data-open="false"
+            >
+              Tutup semua
+            </button>
+          </div>
+          <div class="tree-mount" data-act="b"></div>
+        </div>
+      </section>
+
+      <!-- ============ BABAK C ============ -->
+      <section class="act reveal" id="babak-c" aria-labelledby="h-c">
+        <aside class="datesidebar" aria-labelledby="ds-c">
+          <h3 id="ds-c">Tanggal Penting</h3>
+          <ol class="dates" data-act="c"></ol>
+          <p class="dates-empty" data-act="c" hidden>
+            Tidak ada tanggal eksplisit pada bagian ini.
+          </p>
+        </aside>
+
+        <div class="act-main">
+          <header class="act-head">
+            <p class="act-num">Babak C</p>
+            <h2 id="h-c">Pembentukan Pemerintahan</h2>
+            <p class="act-span">Pasca Proklamasi</p>
+          </header>
+
+          <p class="lede">
+            Proklamasi menyatakan negara berdiri, tetapi belum mengisinya. Dalam
+            sebelas hari — 18 hingga 29 Agustus 1945 — PPKI melengkapi kerangka
+            pemerintahan: konstitusi dan pemimpin negara, lalu kementerian dan
+            pembagian wilayah, dan akhirnya sebuah badan pembantu presiden. Pola
+            strukturnya bergerak dari legitimasi, ke birokrasi, ke wilayah.
+          </p>
+
+          <div class="toolbar" data-print="hide">
+            <button
+              class="btn small"
+              type="button"
+              data-all="c"
+              data-open="true"
+            >
+              Buka semua
+            </button>
+            <button
+              class="btn small"
+              type="button"
+              data-all="c"
+              data-open="false"
+            >
+              Tutup semua
+            </button>
+          </div>
+          <div class="tree-mount" data-act="c"></div>
+        </div>
+      </section>
+
+      <!-- ============ ANALISIS DAMPAK ============ -->
+      <section class="block reveal" id="dampak" aria-labelledby="h-d">
+        <header class="act-head">
+          <p class="act-num">Analisis</p>
+          <h2 id="h-d">Benang Merah Antarstruktur</h2>
+        </header>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Yang membebani rakyat</h3>
+            <p>
+              Ekonomi Perang menguras padi, karet, dan aset rakyat; Romusha
+              mengambil tenaga kerja paksa; kelaparan dan kemiskinan menyebar.
+              Wajib Seikerei memaksa rakyat melakukan penghormatan yang
+              bertentangan dengan martabat dan keyakinannya.
+            </p>
+          </article>
+          <article class="card accent">
+            <h3>Yang justru menjadi bekal</h3>
+            <p>
+              Pelatihan militer lewat Seinendan, Keibodan, Heiho, dan PETA
+              memberi pemuda pengalaman organisasi dan senjata. Izin pemakaian
+              Bahasa Indonesia membuat gagasan kebangsaan menyebar jauh lebih
+              luas daripada di masa Belanda.
+            </p>
+          </article>
+        </div>
+
+        <h3 class="chain-title">Rantai sebab akibat</h3>
+        <ol class="chain">
+          <li>
+            <b>1942</b> Jepang datang dengan propaganda 3A dan mengambil alih
+            pemerintahan dari Belanda.
+          </li>
+          <li>
+            <b>1942–1945</b> Kebijakan militer &amp; organisasi bentukan melatih
+            struktur sosial pemuda.
+          </li>
+          <li>
+            <b>6–15 Ags 1945</b> Jepang kalah; kekosongan kekuasaan muncul
+            sebagai celah politik.
+          </li>
+          <li>
+            <b>16–17 Ags 1945</b> Desakan golongan muda diselesaikan dengan
+            naskah bersama di rumah Maeda.
+          </li>
+          <li>
+            <b>18–29 Ags 1945</b> Celah itu diisi kerangka negara: UUD,
+            presiden, kementerian, provinsi, KNIP.
+          </li>
+        </ol>
+
+        <p class="closing-note">
+          Kesimpulan struktur: Babak A menyiapkan pelaku dan bahasa, Babak B
+          memanfaatkan celah waktu, Babak C mengubah pernyataan menjadi lembaga.
+          Ketiganya baru masuk akal bila dibaca berurutan, bukan sebagai tiga
+          daftar yang terpisah.
+        </p>
+      </section>
+
+      <!-- ============ DAFTAR PUSTAKA ============ -->
+      <section class="block reveal" id="pustaka" aria-labelledby="h-p">
+        <header class="act-head">
+          <p class="act-num">Sumber</p>
+          <h2 id="h-p">Daftar Pustaka</h2>
+        </header>
+
+        <ol class="refs">
+          <li class="ref">
+            Poesponegoro, Marwati Djoened, dan Nugroho Notosusanto.
+            <i
+              >Sejarah Nasional Indonesia VI: Zaman Jepang dan Zaman Republik
+              Indonesia</i
+            >. Jakarta: Balai Pustaka.
+          </li>
+          <li class="ref">
+            Ricklefs, M. C. <i>Sejarah Indonesia Modern 1200–2008</i>. Jakarta:
+            Serambi Ilmu Semesta.
+          </li>
+          <li class="ref">
+            Kahin, George McTurnan.
+            <i>Nasionalisme dan Revolusi di Indonesia</i>. Yogyakarta: Core
+            Indonesia (terjemahan).
+          </li>
+          <li class="ref">
+            Malik, Adam.
+            <i
+              >Riwajat Sedjarah Djalan ke Republik Indonesia, 17 Juni 1943 – 15
+              Desember 1945</i
+            >. Jakarta: Yayasan Idayu.
+          </li>
+          <li class="ref">
+            Naskah Proklamasi dan dokumen sidang PPKI. Arsip naskah proklamasi
+            disimpan dan dipamerkan di Museum Naskah Proklamasi, Jl. Pegangsaan
+            Timur No. 56, Jakarta.
+          </li>
+          <li class="ref">
+            Buku teks Sejarah Indonesia tingkat menengah yang dipakai di sekolah
+            (edisi terbaru) — gunakan sebagai rujukan utama tanggal dan nama
+            tokoh.
+          </li>
+        </ol>
+
+        <p class="note">
+          Sesuaikan daftar ini dengan buku atau modul yang benar-benar kamu
+          pakai, dan tambahkan kota serta tahun terbit edisi yang kamu pegang.
+        </p>
+      </section>
+
+      <!-- ============ PENUTUP ============ -->
+      <section class="block reveal" id="penutup" aria-labelledby="h-e">
+        <header class="act-head">
+          <p class="act-num">Penutup</p>
+          <h2 id="h-e">Catatan Pembaca</h2>
+        </header>
+        <p class="lede">
+          Setiap pohon pada halaman ini dapat dibuka dan ditutup. Bila ingin
+          melihat seluruh struktur sekaligus, gunakan tombol “Buka semua” pada
+          tiap babak, lalu tekan <b>Ctrl&nbsp;+&nbsp;P</b> untuk menyimpannya
+          sebagai PDF — hasil cetak selalu menampilkan seluruh cabang dalam
+          keadaan terbuka.
+        </p>
+      </section>
+    </main>
+
+    <footer class="sitefoot">
+      <p>
+        Tugas Sejarah @VINZENT RUMERE · Analisis Struktur Sejarah Kemerdekaan
+        Indonesia
+      </p>
+      <p class="print-only">
+        Nama: VINZENT ROBERTHO RUMERE &nbsp;·&nbsp; Kelas: XI - RPL
+        &nbsp;·&nbsp; No. Absen: 16
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
